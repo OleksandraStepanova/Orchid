@@ -37,3 +37,36 @@ const swiperCustomers =  new Swiper('.swiper-customers', {
 });
 
 
+function isElementInViewport(el) {
+  const rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+function animateIfInViewport() {
+  var element = document.querySelector('.benefits-slide');
+  if (isElementInViewport(element)) {
+    element.classList.add('animation');
+    window.removeEventListener('scroll', animateIfInViewport);
+  }
+}
+window.addEventListener('scroll', animateIfInViewport);
+document.addEventListener('DOMContentLoaded', animateIfInViewport);
+
+const burgerMenu = document.querySelector('.mobile-button-menu');
+const modal = document.querySelector('.modal-window-mb');
+const closeButton = document.querySelector('.modal-menu-close-btn');
+const menuButtons = document.querySelectorAll('.modal-menu-item');
+
+
+
+function toggle(event) {
+  modal.classList.toggle('is-open');
+}
+
+burgerMenu.addEventListener('click', toggle);
+closeButton.addEventListener('click', toggle);
+menuButtons.forEach(button => button.addEventListener('click', toggle));

@@ -1,0 +1,89 @@
+.stores {
+  position: relative;
+  padding-top: 282px;
+  padding-bottom: 30px;
+}
+.stores-image {
+  position: absolute;
+  left: 0;
+  top: 173px;
+}
+.stores-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 343px;
+  margin-top: 40px;
+}
+.stores-item {
+  width: 343px;
+}
+.stores-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+  box-shadow: 0 19px 60px 0 rgba(92, 61, 50, 0.2);
+  background: rgba(255, 255, 255, 0.5);
+  padding: 28px 64px 18px 18px;
+}
+.stores-name {
+  font-family: 'Magnolia Script', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: #5a3b2d;
+  text-align: left;
+}
+.stores-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.icon-stores {
+  stroke: #5a3b2d;
+  fill: #5a3b2d;
+}
+.stores-contacts {
+  display: flex;
+  gap: 6px;
+}
+.stores-text {
+  font-family: 'Montserrat Regular', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  color: #5a3b2d;
+}
+@media (min-width: 1440px) {
+  .stores-image {
+    top: 85px;
+  }
+  .stores-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 986px;
+  }
+  .stores-item {
+    width: 462px;
+  }
+  .stores-item-wrapper {
+    border-radius: 50px;
+    width: calc((100%-40px) / 2);
+    gap: 22px;
+    padding: 37px 55px 37px 61px;
+  }
+  .stores-info {
+    gap: 12px;
+  }
+  .stores-contacts {
+    gap: 12px;
+  }
+  .stores-name {
+    font-size: 36px;
+  }
+  .stores-text {
+    font-size: 22px;
+  }
+}

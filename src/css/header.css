@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 .nav-list {
@@ -28,9 +29,6 @@
   color: #ffa2a4;
   /* text-decoration: underline; */
 }
-.logo {
-  margin-right: 216px;
-}
 
 @media (min-width: 1440px) {
   .header {
@@ -39,7 +37,6 @@
   }
 
   .logo {
-    margin-right: 424px;
     width: 183px;
   }
   .nav-list {

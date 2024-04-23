@@ -29,7 +29,7 @@
   font-weight: 400;
   font-size: 14px;
   color: #3f3f3d;
-  width: 333px;
+  max-width: 333px;
   line-height: 1.2;
   letter-spacing: 0.01em;
 }
@@ -40,7 +40,7 @@
   }
   .about-us-text {
     line-height: 1.4;
-    width: 412px;
+    max-width: 412px;
     letter-spacing: 0;
   }
   .about-us-image {

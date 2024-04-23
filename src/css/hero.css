@@ -1,17 +1,13 @@
 .hero {
-  position: relative;
   background-color: #5a3b2d;
-  padding-top: 383px;
+  padding-top: 17px;
   padding-bottom: 69px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .hero-image {
-  top: 17px;
-  right: 0;
-  position: absolute;
-  object-fit: cover;
+  object-fit: fill;
 }
 .hero-title {
   font-family: 'Montserrat SemiBold', sans-serif;
@@ -19,7 +15,7 @@
   font-size: 30px;
   line-height: 1.3409;
   color: #fffaf0;
-  max-width: 340px;
+  min-width: 320px;
   height: 202px;
   text-align: left;
 }

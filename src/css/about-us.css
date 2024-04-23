@@ -1,0 +1,60 @@
+.about-us-container {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.about-us-image {
+  display: block;
+  width: 260px;
+  margin-bottom: 35px;
+  align-items: start;
+}
+.about-us-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.section-title {
+  font-family: 'Magnolia Script', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 0.32525;
+  letter-spacing: 0.02em;
+  color: #5a3b2d;
+  margin-bottom: 30px;
+}
+.about-us-text {
+  font-family: 'Montserrat Regular', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #3f3f3d;
+  width: 333px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+@media (min-width: 1440px) {
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 32px;
+  }
+  .about-us-text {
+    line-height: 1.4;
+    width: 412px;
+    letter-spacing: 0;
+  }
+  .about-us-image {
+    margin-bottom: 0;
+    width: 575px;
+  }
+  .about-us-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 59px;
+  }
+  .about-us-wrapper {
+    max-width: 497px;
+    padding: 47px;
+  }
+}

@@ -1,21 +1,51 @@
 .header {
-  padding: 20px 0;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav-list {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: flex-end;
-  gap: 40px;
+  gap: 30px;
 }
 
 .nav-link {
+  font-family: 'Montserrat Medium', sans-serif;
   font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+  font-size: 17px;
+  text-align: center;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #747bff;
+  color: #ffa2a4;
+  /* text-decoration: underline; */
+}
+.logo {
+  margin-right: 216px;
+}
+
+@media (min-width: 1440px) {
+  .header {
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+
+  .logo {
+    margin-right: 424px;
+    width: 183px;
+  }
+  .nav-list {
+    display: flex;
+  }
+  .icon-burger {
+    display: none;
+  }
 }

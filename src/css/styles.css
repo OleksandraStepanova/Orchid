@@ -9,24 +9,104 @@
 @import url('./hero.css');
 @import url('./about-us.css');
 @import url('./our-customers.css');
-@import url('./our=products.css');
+@import url('./products.css');
 @import url('./benefits.css');
 @import url('./our-stores.css');
 @import url('./contacts.css');
 @import url('./footer.css');
+@import url('./mobile-menu.css');
 
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('../font/Montserrat-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat Medium';
+  src: url('../font/Montserrat-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat SemiBold';
+  src: url('../font/Montserrat-SemiBold.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Magnolia Script';
+  src: url('../font/Magnolia-Script.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat Regular', 'Montserrat Medium', 'Montserrat SemiBold',
+    'Magnolia Script', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  color: #241c16;
+  background-color: #fffaf0;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.icon {
+  stroke: black;
+  fill: black;
+}
+
+.section-indent {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .section-indent {
+    padding-top: 41px;
+    padding-bottom: 41px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
 }

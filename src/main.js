@@ -10,6 +10,7 @@ const swiperCustomers =  new Swiper('.swiper-customers', {
        375: {
          slidesPerView: 1,
          slidesPerGroup: 1,
+         loop: false,
        },
        1440: {
          slidesPerView: 5,

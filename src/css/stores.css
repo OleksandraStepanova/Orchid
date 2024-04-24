@@ -57,6 +57,9 @@
   color: #5a3b2d;
 }
 @media (min-width: 1440px) {
+  .stores {
+    padding-bottom: 104px;
+  }
   .stores-image {
     top: 85px;
   }

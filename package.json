@@ -1,11 +1,11 @@
 {
-  "name": "Orchid",
+  "name": "OrhideyaSumy",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Orchid/",
+    "build": "vite build --base=/OrhideyaSumy/",
     "preview": "vite preview"
   },
   "devDependencies": {

@@ -15,7 +15,7 @@
   font-size: 30px;
   line-height: 1.3409;
   color: #fffaf0;
-  min-width: 320px;
+  width: 343px;
   height: 202px;
   text-align: left;
 }
@@ -36,7 +36,7 @@
   }
   .hero-title {
     font-size: 36px;
-    max-width: 472px;
+    width: 472px;
     height: 194px;
   }
   .hero-image {

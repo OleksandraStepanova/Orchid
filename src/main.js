@@ -50,11 +50,9 @@ function animateIfInViewport() {
   var element = document.querySelector('.benefits-slide');
   if (isElementInViewport(element)) {
     element.classList.add('animation');
-    window.removeEventListener('scroll', animateIfInViewport);
   }
 }
 window.addEventListener('scroll', animateIfInViewport);
-document.addEventListener('DOMContentLoaded', animateIfInViewport);
 
 const burgerMenu = document.querySelector('.mobile-button-menu');
 const modal = document.querySelector('.modal-window-mb');

@@ -6,7 +6,7 @@
 }
 .about-us-image {
   display: block;
-  width: 260px;
+  max-width: 260px;
   margin-bottom: 35px;
   align-items: start;
 }
@@ -45,7 +45,7 @@
   }
   .about-us-image {
     margin-bottom: 0;
-    width: 575px;
+    max-width: 575px;
   }
   .about-us-container {
     flex-direction: row;

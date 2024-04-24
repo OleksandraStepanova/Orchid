@@ -23,6 +23,7 @@
   letter-spacing: 0.02em;
   color: #5a3b2d;
   margin-bottom: 30px;
+  width: 300px;
 }
 .about-us-text {
   font-family: 'Montserrat Regular', sans-serif;
@@ -37,6 +38,7 @@
   .section-title {
     font-size: 36px;
     margin-bottom: 32px;
+    width: 353px;
   }
   .about-us-text {
     line-height: 1.4;

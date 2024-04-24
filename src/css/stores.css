@@ -73,7 +73,7 @@
   }
   .stores-item-wrapper {
     border-radius: 50px;
-    width: calc((100%-40px) / 2);
+    width: 473px;
     gap: 22px;
     padding: 37px 55px 37px 61px;
   }

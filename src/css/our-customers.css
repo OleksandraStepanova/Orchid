@@ -55,7 +55,6 @@
 .swiper-container-customers {
   width: 300px;
   display: flex;
-  font-display: row;
   justify-content: center;
   gap: 46px;
   align-items: center;

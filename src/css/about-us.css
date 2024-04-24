@@ -6,7 +6,7 @@
 }
 .about-us-image {
   display: block;
-  max-width: 260px;
+  width: 260px;
   margin-bottom: 35px;
   align-items: start;
 }
@@ -29,7 +29,7 @@
   font-weight: 400;
   font-size: 14px;
   color: #3f3f3d;
-  max-width: 333px;
+  width: 333px;
   line-height: 1.2;
   letter-spacing: 0.01em;
 }
@@ -40,12 +40,12 @@
   }
   .about-us-text {
     line-height: 1.4;
-    max-width: 412px;
+    width: 412px;
     letter-spacing: 0;
   }
   .about-us-image {
     margin-bottom: 0;
-    max-width: 575px;
+    width: 575px;
   }
   .about-us-container {
     flex-direction: row;
@@ -54,7 +54,7 @@
     gap: 59px;
   }
   .about-us-wrapper {
-    max-width: 497px;
+    width: 497px;
     padding: 47px;
   }
 }

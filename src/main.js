@@ -14,11 +14,12 @@ const swiperCustomers =  new Swiper('.swiper-customers', {
        1440: {
          slidesPerView: 5,
          slidesPerGroup: 5,
+            loop: false,
     },
   },
-     pagination: {
-        el: '.swiper-pagination',
-         clickable: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
   },
   spaceBetween: 60,
     loop: true,
@@ -35,6 +36,21 @@ const swiperCustomers =  new Swiper('.swiper-customers', {
     
 });
 
+
+swiperCustomers.on('slideChange',function () {
+             if (swiperCustomers.isBeginning) {
+               document.querySelector('.btn-prev').classList.add('no-active');
+                document.querySelector('.btn-next').classList.remove('no-active');
+             } else if (swiperCustomers.isEnd) {
+               document.querySelector('.btn-next').classList.add('no-active');
+               document.querySelector('.btn-prev').classList.remove('no-active');
+             }
+             else {
+               document.querySelector('.btn-prev').classList.remove('no-active');
+               document.querySelector('.btn-next').classList.remove('no-active');
+  }
+})
+           
 
 function isElementInViewport(el) {
   const rect = el.getBoundingClientRect();

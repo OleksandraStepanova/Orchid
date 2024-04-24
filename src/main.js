@@ -7,23 +7,22 @@ import 'swiper/swiper-bundle.css'
 const swiperCustomers =  new Swiper('.swiper-customers', {
     slidesPerView: 'auto',
      breakpoints: {
-    375: {
-             slidesPerView: 1,
-        slidesPerGroup:1,
+       375: {
+         slidesPerView: 1,
+         slidesPerGroup: 1,
+       },
+       1440: {
+         slidesPerView: 5,
+         slidesPerGroup: 5,
     },
-    1440: {
-        slidesPerView: 5,
-        slidesPerGroup:5,
-    },
-    },
+  },
      pagination: {
         el: '.swiper-pagination',
          clickable: true,
-    },
-     
+  },
+  spaceBetween: 60,
     loop: true,
     grabCursor: true,
-    spaceBetween: 60,
     keyboard: {
     enabled: true,
     },

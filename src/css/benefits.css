@@ -95,7 +95,7 @@
   line-height: 1.4;
   text-align: center;
   color: #5a3b2d;
-  width: 296px;
+  width: 310px;
 }
 .benefits-image {
   position: absolute;
@@ -129,7 +129,7 @@
     align-items: start;
   }
   .benefits-slide-text {
-    width: 752px;
+    width: 780px;
     font-size: 24px;
     text-align: left;
   }

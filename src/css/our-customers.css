@@ -39,7 +39,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 25px;
+  min-width: 25px;
   height: 25px;
   border-radius: 100%;
   border: 1px solid #5a3b2d;
@@ -83,7 +83,7 @@
   .our-customers {
   }
   .btn {
-    width: 48px;
+    min-width: 48px;
     height: 48px;
     padding: 12px;
   }

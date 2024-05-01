@@ -107,9 +107,10 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-body {
-}
 
 html {
   scroll-behavior: smooth;
+}
+.benefits-stores {
+  overflow: hidden;
 }

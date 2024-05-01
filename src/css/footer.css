@@ -8,7 +8,7 @@
   width: 1240px;
   justify-content: end;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   .footer {
     display: block;
   }

@@ -12,7 +12,7 @@
   padding-bottom: 156px;
 }
 .benefits-list {
-  max-width: 343px;
+  min-width: 288px;
   display: flex;
   flex-direction: column;
   gap: 45px;

@@ -20,7 +20,7 @@
 .nav-link {
   font-family: 'Montserrat Medium', sans-serif;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -29,20 +29,28 @@
   color: #ffa2a4;
   /* text-decoration: underline; */
 }
-
-@media (min-width: 1440px) {
-  .header {
-    padding-top: 13px;
-    padding-bottom: 13px;
-  }
-
-  .logo {
-    width: 183px;
-  }
+@media (min-width: 768px) {
   .nav-list {
     display: flex;
   }
   .icon-burger {
     display: none;
+  }
+  .logo {
+    width: 110px;
+  }
+  .header {
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .logo {
+    width: 183px;
+  }
+
+  .nav-link {
+    font-size: 17px;
   }
 }

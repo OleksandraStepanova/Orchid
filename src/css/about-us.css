@@ -5,8 +5,8 @@
   align-items: baseline;
 }
 .about-us-image {
-  display: block;
-  width: 260px;
+  display: flex;
+  width: 100%;
   margin-bottom: 35px;
   align-items: start;
 }
@@ -35,25 +35,45 @@
   line-height: 1.2;
   letter-spacing: 0.01em;
 }
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   .section-title {
-    font-size: 36px;
+    font-size: 24px;
     margin-bottom: 32px;
-    width: 353px;
   }
   .about-us-text {
     line-height: 1.4;
-    width: 412px;
+    font-size: 10px;
+    width: 248px;
     letter-spacing: 0;
   }
   .about-us-image {
     margin-bottom: 0;
-    width: 575px;
+    /* width: 360px;
+    height: 200px; */
+    object-fit: cover;
   }
+
   .about-us-container {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+  }
+  .about-us-wrapper {
+    width: 356px;
+    padding: 32px 0 32px 66px;
+  }
+}
+@media (min-width: 1280px) {
+  .section-title {
+    font-size: 36px;
+    width: 357px;
+  }
+  .about-us-text {
+    font-size: 14px;
+    width: 412px;
+  }
+
+  .about-us-container {
     gap: 59px;
   }
   .about-us-wrapper {

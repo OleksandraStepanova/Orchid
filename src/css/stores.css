@@ -14,7 +14,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  width: 343px;
+  min-width: 288px;
   margin-top: 40px;
 }
 .stores-item {
